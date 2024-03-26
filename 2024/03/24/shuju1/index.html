@@ -1,0 +1,340 @@
+
+<!DOCTYPE html>
+<html lang="zh-CH" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>数据结构基本概念 - 木  兮</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="muxi,"> 
+    <meta name="description" content="
+# 数据结构的定义：
+
+相关知识的定义：
+数据是描述客观事物的数和字符的合集。
+
+
+人们通常以数据元素作为数据的基本单位。（数据元素也被称为 元素，节点 或 记录）
+
+
+数据项（字段 或 域）：具,"> 
+    <meta name="author" content="muxi"> 
+    <link rel="alternative" href="atom.xml" title="木  兮" type="application/atom+xml"> 
+    <link rel="icon" href="/img/favicon.png"> 
+    
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="数据结构基本概念 - 木  兮"/>
+    <meta name="twitter:description" content="
+# 数据结构的定义：
+
+相关知识的定义：
+数据是描述客观事物的数和字符的合集。
+
+
+人们通常以数据元素作为数据的基本单位。（数据元素也被称为 元素，节点 或 记录）
+
+
+数据项（字段 或 域）：具,"/>
+    
+    
+    
+    
+    <meta property="og:site_name" content="木  兮"/>
+    <meta property="og:type" content="object"/>
+    <meta property="og:title" content="数据结构基本概念 - 木  兮"/>
+    <meta property="og:description" content="
+# 数据结构的定义：
+
+相关知识的定义：
+数据是描述客观事物的数和字符的合集。
+
+
+人们通常以数据元素作为数据的基本单位。（数据元素也被称为 元素，节点 或 记录）
+
+
+数据项（字段 或 域）：具,"/>
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+
+    <script>window.searchDbPath = "/search.xml";</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+    
+<!-- 点击效果 -->
+
+    <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas>
+    <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/5MayRain/5MayRain.github.io@latest/js/fireworks.js"></script>
+    
+    
+
+
+
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body class="loading">
+    <span id="config-title" style="display:none">木  兮</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="http://example.com"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">数据结构基本概念</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">数据结构基本概念</h1>
+        <div class="stuff">
+            <span>三月 24, 2024</span>
+            <span>
+                阅读数<span id="busuanzi_value_page_pv"></span>
+             </span>
+             
+            
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/C-C/" rel="tag">C&#x2F;C++</a></li><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" rel="tag">数据结构</a></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <meta name="referrer" content="no-referrer">
+# 数据结构的定义：
+
+<h2 id="相关知识的定义："><a href="#相关知识的定义：" class="headerlink" title="相关知识的定义："></a>相关知识的定义：</h2><blockquote>
+<p>数据是描述客观事物的数和字符的合集。</p>
+</blockquote>
+<blockquote>
+<p>人们通常以数据元素作为数据的基本单位。（数据元素也被称为 元素，节点 或 记录）</p>
+</blockquote>
+<blockquote>
+<p>数据项（字段 或 域）：具有独立含义的数据最小单位。</p>
+</blockquote>
+<blockquote>
+<p>数据对象：性质相同的数据元素的集合，是数据的一个子集。</p>
+</blockquote>
+<h3 id="举例说明："><a href="#举例说明：" class="headerlink" title="举例说明："></a>举例说明：</h3><blockquote>
+<p>例如：我们要记录一个班级的各个学生的数据。</p>
+<p>我们所记录的一切，都是数据。对于各个学生而言，每个学生的记录都是一个数据元素。其中每个学生记录（数据元素）中的各项（例如：学号，姓名，性别 等）被称作数据项。其中将所有的学号（或姓名，性别 等）的集合被称作数据对象。</p>
+</blockquote>
+<h3 id="图："><a href="#图：" class="headerlink" title="图："></a>图：</h3><p><img src="/2024/03/24/shuju1/111.png" alt="111"></p>
+<h2 id="数据结构："><a href="#数据结构：" class="headerlink" title="数据结构："></a>数据结构：</h2><h3 id="定义："><a href="#定义：" class="headerlink" title="定义："></a>定义：</h3><blockquote>
+<p>数据结构：所有数据元素以及数据元素之间的关系，可以看作相互之间存在着某种特定关系的数据元素的集合。</p>
+</blockquote>
+<h3 id="解释："><a href="#解释：" class="headerlink" title="解释："></a>解释：</h3><blockquote>
+<p>数据结构 &#x3D; 数据 + 结构</p>
+<p>即用一种结构将零散的数据串起来，使其能够有一个结构化的状态呈现。</p>
+</blockquote>
+<h3 id="数据结构的三方面："><a href="#数据结构的三方面：" class="headerlink" title="数据结构的三方面："></a>数据结构的三方面：</h3><blockquote>
+<p>（1）数据的<strong>逻辑结构</strong>：由数据元素之间的逻辑关系构成。</p>
+</blockquote>
+<blockquote>
+<p>（2）数据的 <strong>存储结构</strong> ：数据元素及其关系在计算机存储器中存储表示，也称为数据的物理结构。</p>
+</blockquote>
+<blockquote>
+<p>（3）数据的 <strong>运算</strong> ：施加在该数据上的操作。</p>
+</blockquote>
+<h1 id="逻辑结构："><a href="#逻辑结构：" class="headerlink" title="逻辑结构："></a>逻辑结构：</h1><h2 id="结构的表示："><a href="#结构的表示：" class="headerlink" title="结构的表示："></a>结构的表示：</h2><h3 id="1）图表表示："><a href="#1）图表表示：" class="headerlink" title="1）图表表示："></a>1）图表表示：</h3><blockquote>
+<p>像表格一样表示（如下图）<br><img src="/2024/03/24/shuju1/112.png" alt="112"></p>
+</blockquote>
+<p><img src="/2024/03/24/shuju1/113.png" alt="113"></p>
+<h3 id="2）二元组表示："><a href="#2）二元组表示：" class="headerlink" title="2）二元组表示："></a>2）二元组表示：</h3><blockquote>
+<p>二元组是一种通用的逻辑结构表达方式。</p>
+</blockquote>
+<blockquote>
+<p>例如：B&#x3D;（D，R）</p>
+</blockquote>
+<h4 id="解释：-1"><a href="#解释：-1" class="headerlink" title="解释："></a>解释：</h4><blockquote>
+<p>B 表示一种逻辑结构，由数据元素 D 以及 D 上的二元关系的集合 R 所组成。</p>
+</blockquote>
+<p><img src="/2024/03/24/shuju1/116.png" alt="116"></p>
+<blockquote>
+<p>例如</p>
+<p>B&#x3D;（D，R）<br><img src="/2024/03/24/shuju1/115.png" alt="115"><br>其相当于下图</p>
+</blockquote>
+<p><img src="/2024/03/24/shuju1/114.png" alt="114"></p>
+<h3 id="类型（图解）："><a href="#类型（图解）：" class="headerlink" title="类型（图解）："></a>类型（图解）：</h3><blockquote>
+<p>1）集合：数据元素之间除了集合关系，无其他关系。（如下图）</p>
+</blockquote>
+<p> <img src="/2024/03/24/shuju1/111.png" alt="111"></p>
+<blockquote>
+<p>2）线性结构（一对一的关系）：顾名思义，像线将珠子串起来一样。（如下图）</p>
+</blockquote>
+<p><img src="/2024/03/24/shuju1/113.png" alt="113"></p>
+<blockquote>
+<p>3）树形结构：就和自然界中的树一样，由一个主干衍生出多个枝干。（如下图）</p>
+</blockquote>
+<p><img src="/2024/03/24/shuju1/114.png" alt="114"></p>
+<blockquote>
+<p>4）图形结构：各数据元素之间存在多重关系，其特点在于：所有的数据元素的前驱元素和后驱元素可以是任意的（即各个数据元素虽然都被串起来了，但是其中任意元素的前一个元素和后一个元素可以是其余元素中的任意一个元素）。</p>
+</blockquote>
+<blockquote>
+<p>补充：树形结构 和 图形结构 称为 非线性结构，其关系为一对多的关系。</p>
+</blockquote>
+<h2 id="存储结构："><a href="#存储结构：" class="headerlink" title="存储结构："></a>存储结构：</h2><h2 id="1）顺序存储结构："><a href="#1）顺序存储结构：" class="headerlink" title="1）顺序存储结构："></a>1）顺序存储结构：</h2><blockquote>
+<p>采用一组连续的存储单元存放所有的数据。</p>
+</blockquote>
+<h2 id="2）链式存储结构："><a href="#2）链式存储结构：" class="headerlink" title="2）链式存储结构："></a>2）链式存储结构：</h2><blockquote>
+<p>每一个节点都是单独分配的，通过添加指针将其串起来。</p>
+</blockquote>
+<h2 id="3）索引存储结构："><a href="#3）索引存储结构：" class="headerlink" title="3）索引存储结构："></a>3）索引存储结构：</h2><blockquote>
+<p>在存储数据的时候，添加类似于关键词的结构，便于查找。</p>
+</blockquote>
+<h2 id="4）哈希（或散型）存储结构："><a href="#4）哈希（或散型）存储结构：" class="headerlink" title="4）哈希（或散型）存储结构："></a>4）哈希（或散型）存储结构：</h2><blockquote>
+<p>根据元素的关键字通过哈希函数计算出一个值，并将这个值当作该元素的存储地址。</p>
+</blockquote>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="true">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title="0" data-url="https://link.hhtjim.com/163/38592976.mp3"></li>
+                        
+                    
+                        
+                            <li title="1" data-url="https://link.hhtjim.com/163/1901371647.mp3"></li>
+                        
+                    
+                </ul>
+            
+        </div>
+        
+        
+    <div id="gitalk-container" class="comment link"
+		data-enable="true"
+        data-ae="ture"
+        data-ci=""
+        data-cs=""
+        data-r=""
+        data-o=""
+        data-a=""
+        data-d="false"
+    >查看评论</div>
+
+
+    </div>
+    
+</div>
+
+
+    </div>
+</div>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"position":"left","width":150,"height":300},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/"});</script></body>
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/diaspora.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], linebreaks: { automatic:true }, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) },
+        tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno",skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']},
+        TeX: {  noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } }, Macros: { href: "{}" } },
+        messageStyle: "none"
+    });
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+
+
+</html>
+
+<script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/sakura.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/noSomeKey.js"></script>

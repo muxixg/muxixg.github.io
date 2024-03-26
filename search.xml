@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2024/03/23/hello-world/</url>
+    <content><![CDATA[<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>数据结构基本概念</title>
+    <url>/2024/03/24/shuju1/</url>
+    <content><![CDATA[<meta name="referrer" content="no-referrer">
+# 数据结构的定义：
+
+<h2 id="相关知识的定义："><a href="#相关知识的定义：" class="headerlink" title="相关知识的定义："></a>相关知识的定义：</h2><blockquote>
+<p>数据是描述客观事物的数和字符的合集。</p>
+</blockquote>
+<blockquote>
+<p>人们通常以数据元素作为数据的基本单位。（数据元素也被称为 元素，节点 或 记录）</p>
+</blockquote>
+<blockquote>
+<p>数据项（字段 或 域）：具有独立含义的数据最小单位。</p>
+</blockquote>
+<blockquote>
+<p>数据对象：性质相同的数据元素的集合，是数据的一个子集。</p>
+</blockquote>
+<h3 id="举例说明："><a href="#举例说明：" class="headerlink" title="举例说明："></a>举例说明：</h3><blockquote>
+<p>例如：我们要记录一个班级的各个学生的数据。</p>
+<p>我们所记录的一切，都是数据。对于各个学生而言，每个学生的记录都是一个数据元素。其中每个学生记录（数据元素）中的各项（例如：学号，姓名，性别 等）被称作数据项。其中将所有的学号（或姓名，性别 等）的集合被称作数据对象。</p>
+</blockquote>
+<h3 id="图："><a href="#图：" class="headerlink" title="图："></a>图：</h3><p><img src="/2024/03/24/shuju1/111.png" alt="111"></p>
+<h2 id="数据结构："><a href="#数据结构：" class="headerlink" title="数据结构："></a>数据结构：</h2><h3 id="定义："><a href="#定义：" class="headerlink" title="定义："></a>定义：</h3><blockquote>
+<p>数据结构：所有数据元素以及数据元素之间的关系，可以看作相互之间存在着某种特定关系的数据元素的集合。</p>
+</blockquote>
+<h3 id="解释："><a href="#解释：" class="headerlink" title="解释："></a>解释：</h3><blockquote>
+<p>数据结构 &#x3D; 数据 + 结构</p>
+<p>即用一种结构将零散的数据串起来，使其能够有一个结构化的状态呈现。</p>
+</blockquote>
+<h3 id="数据结构的三方面："><a href="#数据结构的三方面：" class="headerlink" title="数据结构的三方面："></a>数据结构的三方面：</h3><blockquote>
+<p>（1）数据的<strong>逻辑结构</strong>：由数据元素之间的逻辑关系构成。</p>
+</blockquote>
+<blockquote>
+<p>（2）数据的 <strong>存储结构</strong> ：数据元素及其关系在计算机存储器中存储表示，也称为数据的物理结构。</p>
+</blockquote>
+<blockquote>
+<p>（3）数据的 <strong>运算</strong> ：施加在该数据上的操作。</p>
+</blockquote>
+<h1 id="逻辑结构："><a href="#逻辑结构：" class="headerlink" title="逻辑结构："></a>逻辑结构：</h1><h2 id="结构的表示："><a href="#结构的表示：" class="headerlink" title="结构的表示："></a>结构的表示：</h2><h3 id="1）图表表示："><a href="#1）图表表示：" class="headerlink" title="1）图表表示："></a>1）图表表示：</h3><blockquote>
+<p>像表格一样表示（如下图）<br><img src="/2024/03/24/shuju1/112.png" alt="112"></p>
+</blockquote>
+<p><img src="/2024/03/24/shuju1/113.png" alt="113"></p>
+<h3 id="2）二元组表示："><a href="#2）二元组表示：" class="headerlink" title="2）二元组表示："></a>2）二元组表示：</h3><blockquote>
+<p>二元组是一种通用的逻辑结构表达方式。</p>
+</blockquote>
+<blockquote>
+<p>例如：B&#x3D;（D，R）</p>
+</blockquote>
+<h4 id="解释：-1"><a href="#解释：-1" class="headerlink" title="解释："></a>解释：</h4><blockquote>
+<p>B 表示一种逻辑结构，由数据元素 D 以及 D 上的二元关系的集合 R 所组成。</p>
+</blockquote>
+<p><img src="/2024/03/24/shuju1/116.png" alt="116"></p>
+<blockquote>
+<p>例如</p>
+<p>B&#x3D;（D，R）<br><img src="/2024/03/24/shuju1/115.png" alt="115"><br>其相当于下图</p>
+</blockquote>
+<p><img src="/2024/03/24/shuju1/114.png" alt="114"></p>
+<h3 id="类型（图解）："><a href="#类型（图解）：" class="headerlink" title="类型（图解）："></a>类型（图解）：</h3><blockquote>
+<p>1）集合：数据元素之间除了集合关系，无其他关系。（如下图）</p>
+</blockquote>
+<p> <img src="/2024/03/24/shuju1/111.png" alt="111"></p>
+<blockquote>
+<p>2）线性结构（一对一的关系）：顾名思义，像线将珠子串起来一样。（如下图）</p>
+</blockquote>
+<p><img src="/2024/03/24/shuju1/113.png" alt="113"></p>
+<blockquote>
+<p>3）树形结构：就和自然界中的树一样，由一个主干衍生出多个枝干。（如下图）</p>
+</blockquote>
+<p><img src="/2024/03/24/shuju1/114.png" alt="114"></p>
+<blockquote>
+<p>4）图形结构：各数据元素之间存在多重关系，其特点在于：所有的数据元素的前驱元素和后驱元素可以是任意的（即各个数据元素虽然都被串起来了，但是其中任意元素的前一个元素和后一个元素可以是其余元素中的任意一个元素）。</p>
+</blockquote>
+<blockquote>
+<p>补充：树形结构 和 图形结构 称为 非线性结构，其关系为一对多的关系。</p>
+</blockquote>
+<h2 id="存储结构："><a href="#存储结构：" class="headerlink" title="存储结构："></a>存储结构：</h2><h2 id="1）顺序存储结构："><a href="#1）顺序存储结构：" class="headerlink" title="1）顺序存储结构："></a>1）顺序存储结构：</h2><blockquote>
+<p>采用一组连续的存储单元存放所有的数据。</p>
+</blockquote>
+<h2 id="2）链式存储结构："><a href="#2）链式存储结构：" class="headerlink" title="2）链式存储结构："></a>2）链式存储结构：</h2><blockquote>
+<p>每一个节点都是单独分配的，通过添加指针将其串起来。</p>
+</blockquote>
+<h2 id="3）索引存储结构："><a href="#3）索引存储结构：" class="headerlink" title="3）索引存储结构："></a>3）索引存储结构：</h2><blockquote>
+<p>在存储数据的时候，添加类似于关键词的结构，便于查找。</p>
+</blockquote>
+<h2 id="4）哈希（或散型）存储结构："><a href="#4）哈希（或散型）存储结构：" class="headerlink" title="4）哈希（或散型）存储结构："></a>4）哈希（或散型）存储结构：</h2><blockquote>
+<p>根据元素的关键字通过哈希函数计算出一个值，并将这个值当作该元素的存储地址。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>数据结构</category>
+      </categories>
+      <tags>
+        <tag>C/C++</tag>
+        <tag>数据结构</tag>
+      </tags>
+  </entry>
+</search>
